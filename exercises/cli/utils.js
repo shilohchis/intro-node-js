@@ -20,7 +20,8 @@ const getContacts = () => {
  * @param {Object} contacts contacts object
  */
 const saveContacts = (contacts) => {
-    fs.writeFileSync(contactsLocation, JSON.stringify(contacts));
+    //the 3rd argument on JSON.stringify is to put space on every key only, readibility purpose
+    fs.writeFileSync(contactsLocation, JSON.stringify(contacts, null, 2));
 }
 
 module.exports = {

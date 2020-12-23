@@ -1,1 +1,22 @@
-{"babu fool":{"firstName":"babu","lastName":"fool","phoneNumber":"12345"}}
+{
+      "babu fool": {
+            "firstName": "babu",
+            "lastName": "fool",
+            "phoneNumber": "12345"
+      },
+      "ashley smith": {
+            "firstName": "ashley",
+            "lastName": "smith",
+            "phoneNumber": "019201"
+      },
+      "pom pom": {
+            "firstName": "pom",
+            "lastName": "pom",
+            "phoneNumber": "0000"
+      },
+      "sampu rasun": {
+            "firstName": "sampu",
+            "lastName": "rasun",
+            "phoneNumber": "0000"
+      }
+}
