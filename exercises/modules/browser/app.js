@@ -24,5 +24,3 @@ window.App.showUserProfile = (userId, cb) => {
     cb(user)
   })
 }
-
-
